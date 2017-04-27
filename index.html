@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+
+		<title>Timing attack demonstration</title>
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+		<link rel="stylesheet" href="main.css" />
+	</head>
+	<body>
+		<div class="comparison">
+			<div class="comparison-row">
+				<span class="comparison-operator"></span>
+				<span class="comparison-operand">
+					<input class="character" type="text" maxlength="1" size="1" />
+					<input class="character" type="text" maxlength="1" size="1" />
+					<input class="character" type="text" maxlength="1" size="1" />
+					<input class="character" type="text" maxlength="1" size="1" />
+					<input class="character" type="text" maxlength="1" size="1" />
+					<input class="character" type="text" maxlength="1" size="1" />
+					<input class="character" type="text" maxlength="1" size="1" />
+				</span>
+			</div>
+
+			<div class="comparison-row">
+				<span class="comparison-operator">==</span>
+				<span class="comparison-operand">
+					<input class="character" type="text" maxlength="1" size="1" value="s" disabled />
+					<input class="character" type="text" maxlength="1" size="1" value="e" disabled />
+					<input class="character" type="text" maxlength="1" size="1" value="c" disabled />
+					<input class="character" type="text" maxlength="1" size="1" value="r" disabled />
+					<input class="character" type="text" maxlength="1" size="1" value="e" disabled />
+					<input class="character" type="text" maxlength="1" size="1" value="t" disabled />
+					<input class="character" type="text" maxlength="1" size="1" value="1" disabled />
+				</span>
+			</div>
+
+			<div class="comparison-row comparison-action">
+				<button type="button" id="compare" class="button comparison-no-operator">Compare</button>
+			</div>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>

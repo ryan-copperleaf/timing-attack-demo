@@ -1,0 +1,71 @@
+html {
+	height: 100%;
+}
+
+body {
+	align-items: center;
+	background-color: #333;
+	display: flex;
+	font-family: Open Sans, sans-serif;
+	height: 100%;
+	justify-content: center;
+	margin: 0;
+}
+
+.comparison {
+	display: inline-block;
+}
+
+.comparison-row {
+	margin: 1em 0;
+}
+
+.comparison-operator {
+	color: white;
+	display: inline-block;
+	font: bold 2em Consolas, monospace;
+	margin-left: -2em;
+	min-width: 2em;
+}
+
+.comparison-action {
+	padding: 1.6em 0;
+	text-align: center;
+}
+
+.character {
+	border: 5px solid transparent;
+	background-clip: padding-box;
+	border-radius: 5px;
+	outline: none;
+	font: 2em Consolas, monospace;
+	margin: 0.1em;
+	padding: 0.4em;
+	text-align: center;
+}
+
+.character-mismatch {
+	border-color: #d03;
+}
+
+.character-match {
+	border-color: #0c6;
+}
+
+.button {
+	background-color: #096;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0 3px 0 #074, 0 3px 20px rgba(255, 255, 255, 0.1);
+	color: rgba(255, 255, 255, 0.9);
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 1.2em;
+	outline: none;
+	padding: 0.6em 1.2em;
+}
+
+.button:hover, .button:focus {
+	background-color: #0a7;
+	box-shadow: 0 3px 0 #085, 0 3px 20px rgba(255, 255, 255, 0.3);
+}
